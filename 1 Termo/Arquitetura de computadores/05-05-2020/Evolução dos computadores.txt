@@ -1,0 +1,14 @@
+geração 0
+
+1ª geração 
+	->Válvulas grandes.
+	->Alto consumo de energia.
+
+2ª geração
+	->Transistor.
+
+3ª geração
+	->Chip.
+
+4ª geração
+	-> Grande volume de dados.
