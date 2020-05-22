@@ -54,8 +54,7 @@ inicio
           //alerta que ele trabalhou menos.
           Se horas < mes Entao
              salarioFinal <- salarioBase
-             alerta <- "O profissional trabalhou a
-             menos de 132 horas(o previsto!)"
+             alerta <- "O profissional trabalhou a menos de 132 horas(o previsto!)"
           Fimse
 
      Fimse

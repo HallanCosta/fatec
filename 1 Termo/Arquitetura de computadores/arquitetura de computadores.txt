@@ -1,0 +1,57 @@
+1)
+A finalidade das constituições de níveis e camadas é 
+porque cada nível é uma abstração para o próximo, 
+pois quanto maior o nível da linguagem mais 
+conseguimos reduzir sua interpretação complexa.
+
+Caracteristicas de cada nível:
+Alto nível: Linguagem orientada para problemas - Próxima do ser-humano.
+Nivel montador: Assembler - Tradução(compilador).
+Nível sistema operacional - Tradução(montador).
+Nível convencional: Código binário - Interpretação parcial(sistema operacional).
+Nível microprogramação - Interpretação microprograma.
+Nível lógica digital - Os microprogramas executados diretamente pelo hardware.
+
+
+
+
+
+16) 
+Caracteristicas que influência no desempenho da CPU:
+1 - Frequência de Processador(MegaHertz, Clock).
+2 - Cores (núcleo do processador).
+3 - Memória Cache.
+
+Algumas tecnlogias para alterar o desempenho da cpu:
+O FSB(Front Side Bus) existe porque, devido a limitações físicas, 
+os processadores não podem se comunicar com o chipset 
+e com a memória RAM - mais precisamente, com o controlador 
+da memória, que pode estar na ponte norte (northbridge) 
+do chipset - utilizando a mesma velocidade do clock interno.
+Assim, quando esta comunicação é feita, o clock externo, 
+de frequência mais baixa, é que entra em ação.
+
+QuickPath Interconnect (QPI), utilizado nos chips 
+mais recentes da Intel, e o HyperTransport, 
+aplicado nas CPUs da AMD. Estas mudanças de tecnologias 
+são necessárias porque, com o passar do tempo, a busca 
+por melhor desempenho faz com que os processadores sofram 
+alterações consideráveis em sua arquitetura.
+
+
+17) Um processador de 100 MHz pode executar 100
+milhões de operações de aritméticas em 1 segundo.
+
+18) A arquitetura de Von Neumann possibilitiva os 
+programas ser armazenados na memoria do computador 
+em forma de binário podendo ser manipular os 
+programas com mais facilidade. Sua vantagem principal 
+foi que a leitura de instruções e de alguns 
+tipos de operandos pode ser feita ao mesmo tempo em 
+que a execuçao das instruções, sendo assim o sistema 
+ficaria todo o tempo executando instruções e 
+aumentaria o ganho de velocidade.
+
+19) Alternativa (D)
+
+20) Alternativa (A)

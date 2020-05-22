@@ -1,6 +1,6 @@
 algoritmo "JogoDaVelha"
 // Função : Jogador escolhe x ou bola quem completar 3 sequências primeiro ganha
-// Autor : HállanCosta
+// Autor :
 // Data : 14/05/2020
 // Seção de Declarações 
 var
@@ -10,17 +10,10 @@ var
    acertosJogador1, acertosJogador2:inteiro
    turno:inteiro
    
-   linhas:vetor [1..3] de caractere
-   linha:inteiro
-   
    velha:logico
-   respostaEscolhaJogador:logico
-   respostaJogadasPossiveis:logico
 inicio
 // Seção de Comandos
    velha <- falso
-   respostaEscolhaJogador <- falso
-   respostaJogadasPossiveis <- falso
    
    acertosJogador1 <- 0
    acertosJogador2 <- 0
@@ -35,10 +28,7 @@ inicio
    jogadasPossiveis[8] <- "8"
    jogadasPossiveis[9] <- "9"
    
-   
-   //Popular o jogo da velha usando o PARA ou o REPITA
    Escreval(".:: JOGO DA VELHA ::.")
-   
    Escreval("")
    Escreval("   ",jogadasPossiveis[1],"##    ",jogadasPossiveis[2],"##   ",jogadasPossiveis[3])
    Escreval("    ##     ##    ")
@@ -48,141 +38,30 @@ inicio
    Escreval("#################")
    Escreval("   ",jogadasPossiveis[7],"##    ",jogadasPossiveis[8],"##   ",jogadasPossiveis[9])
    Escreval("    ##     ##    ")
+
    Escreval("")
-
-   
-   
-   
-
-
    
 
 
    Para turno de 1 ate 9 Faca
 
-      //Definindo jogadas do jogador 1 - REGRA de NEGGOCIOS
+      //Definindo jogadas do jogador 1
       Se (turno = 1) OU (turno = 3) OU (turno = 5) OU (turno = 7) OU (turno = 9) Entao
 
-         respostaEscolhaJogador <- falso
-         respostaJogadasPossiveis <- falso
+         Escreva("Jogador 1, Escolha uma jogada respectivamente posição.: ")
+         Leia(escolhaJogador)
          
-         Enquanto respostaEscolhaJogador = falso Faca
-
-                  Enquanto respostaJogadasPossiveis = falso Faca
-
-                           
-                           Escreva("Jogador 1, Escolha uma jogada respectivamente posição.: ")
-                           Leia(escolhaJogador)
-                                    
-                           Se (escolhaJogador < 1) OU (escolhaJogador > 9) Entao
-                              Escreval("")
-                              Escreval("Essa posição não existe!")
-                              Escreval("")
-                           Senao
-                           
-                              //Sai do loop respostaEscolhaJogador
-                              respostaEscolhaJogador <- verdadeiro
-                                       
-                              Se (jogadasPossiveis[escolhaJogador] = "X") Entao
-                                 Escreval("")
-                                 Escreval("Essa jogada já foi feita!")
-                                 Escreval("")
-                              Senao
-                                 //sai do loop respostaJogadasPossiveis
-                                 respostaJogadasPossiveis <- verdadeiro
-                              Fimse
-
-                               Se (jogadasPossiveis[escolhaJogador] = "O") Entao
-                                  respostaJogadasPossiveis <- falso
-                                  Escreval("")
-                                  Escreval("Essa jogada já foi feita!")
-                                  Escreval("")
-                               Senao
-                                  //sai do loop respostaJogadasPossiveis
-                                  respostaJogadasPossiveis <- verdadeiro
-                               Fimse
-                                       
-                            Fimse
-
-
-                  Fimenquanto
-
-
-
-                  
-         
-         Fimenquanto
-
          jogadasPossiveis[escolhaJogador] <- "X"
          acertosJogador1 <- acertosJogador1 + 1
-         
+
       Fimse
 
       //Definindo jogadas do jogador 2
       Se (turno = 2) OU (turno = 4) OU (turno = 6) OU (turno = 8) Entao
-         escolhaJogador <- 0
-         respostaEscolhaJogador <- falso
-         respostaJogadasPossiveis <- falso
+
+         Escreva("Jogador 2, Escolha uma jogada respectivamente posição.: ")
+         Leia(escolhaJogador)
          
-         Enquanto respostaEscolhaJogador = falso Faca
-         
-                  Enquanto respostaJogadasPossiveis = falso Faca
-
-                           Escreva("Jogador 1, Escolha uma jogada respectivamente posição.: ")
-                           Leia(escolhaJogador)
-
-                           Se (escolhaJogador < 1) OU (escolhaJogador > 9) Entao
-                              Escreval("")
-                              Escreval("Essa posição não existe!")
-                              Escreval("")
-                           Senao
-
-                              //Sai do loop respostaEscolhaJogador
-                              respostaEscolhaJogador <- verdadeiro
-
-                              Se (jogadasPossiveis[escolhaJogador] = "X") Entao
-                                 Escreval("")
-                                 Escreval("Essa jogada já foi feita!")
-                                 Escreval("")
-                              Senao
-                                 //sai do loop respostaJogadasPossiveis
-                                 respostaJogadasPossiveis <- verdadeiro
-                              Fimse
-
-                               Se (jogadasPossiveis[escolhaJogador] = "O") Entao
-                                  respostaJogadasPossiveis <- falso
-                                  Escreval("")
-                                  Escreval("Essa jogada já foi feita!")
-                                  Escreval("")
-                               Senao
-                                  //sai do loop respostaJogadasPossiveis
-                                  respostaJogadasPossiveis <- verdadeiro
-                               Fimse
-
-                            Fimse
-                           
-
-                           
-
-
-                           //Se (jogadasPossiveis[1] = "O") OU (jogadasPossiveis[2] = "O") OU (jogadasPossiveis[3] = "O") OU (jogadasPossiveis[4] = "O") OU (jogadasPossiveis[5] = "O") OU (jogadasPossiveis[6] = "O") OU (jogadasPossiveis[7] = "O") OU (jogadasPossiveis[8] = "O") OU (jogadasPossiveis[9] = "O") Entao
-                            //  Escreval("")
-                            //  Escreval("2Essa jogada já foi feita!")
-                            //  Escreval("")
-                           //Senao
-                             //sai do loop
-                            // respostaJogadasPossiveis <- verdadeiro
-                           //Fimse
-                  
-                  
-                  Fimenquanto
-                  
-
-
-
-         
-         Fimenquanto
-
          jogadasPossiveis[escolhaJogador] <- "O"
          acertosJogador2 <- acertosJogador2 + 1
          
@@ -203,6 +82,7 @@ inicio
 
 
       //Regras de negocios Jogador 1 ->
+      
       //JogadasPossiveis Horizontal
       Se (jogadasPossiveis[1] = "X") E (jogadasPossiveis[2] = "X") E (jogadasPossiveis[3] = "X") Entao
 
