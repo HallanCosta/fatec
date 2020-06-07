@@ -58,11 +58,17 @@ inicio
    
 
 
-   Para turno de 1 ate 9 Faca
+   Para turno de 1 ate 10 Faca
+   
+      //Se ele chegar no turno 10 é empate
+      Se (turno = 10) Entao
+         limpatela
+         Escreval("EMPATOU!")
+      Fimse
 
       //Definindo jogadas do jogador 1 - REGRA de NEGGOCIOS
       Se (turno = 1) OU (turno = 3) OU (turno = 5) OU (turno = 7) OU (turno = 9) Entao
-
+         escolhaJogador <- 0
          respostaEscolhaJogador <- falso
          respostaJogadasPossiveis <- falso
          
@@ -82,33 +88,32 @@ inicio
                            
                               //Sai do loop respostaEscolhaJogador
                               respostaEscolhaJogador <- verdadeiro
-                                       
-                              Se (jogadasPossiveis[escolhaJogador] = "X") Entao
-                                 Escreval("")
-                                 Escreval("Essa jogada já foi feita!")
-                                 Escreval("")
-                              Senao
-                                 //sai do loop respostaJogadasPossiveis
-                                 respostaJogadasPossiveis <- verdadeiro
-                              Fimse
+                              
 
-                               Se (jogadasPossiveis[escolhaJogador] = "O") Entao
-                                  respostaJogadasPossiveis <- falso
-                                  Escreval("")
-                                  Escreval("Essa jogada já foi feita!")
-                                  Escreval("")
+                               Se (jogadasPossiveis[escolhaJogador] = "X") OU (jogadasPossiveis[escolhaJogador] = "O") Entao
+                                  //Personalizando mensagens
+                                  Se (jogadasPossiveis[escolhaJogador] = "X") Entao
+                                     Escreval("")
+                                     Escreval("Essa jogada já foi feita pelo jogador 1.")
+                                     Escreval("")
+                                  Fimse
+                                  
+                                  Se (jogadasPossiveis[escolhaJogador] = "O") Entao
+                                     Escreval("")
+                                     Escreval("Essa jogada já foi feita pelo jogador 2.")
+                                     Escreval("")
+                                  Fimse
+                                  
                                Senao
                                   //sai do loop respostaJogadasPossiveis
                                   respostaJogadasPossiveis <- verdadeiro
                                Fimse
-                                       
+                               
+
                             Fimse
 
 
                   Fimenquanto
-
-
-
                   
          
          Fimenquanto
@@ -120,6 +125,7 @@ inicio
 
       //Definindo jogadas do jogador 2
       Se (turno = 2) OU (turno = 4) OU (turno = 6) OU (turno = 8) Entao
+      
          escolhaJogador <- 0
          respostaEscolhaJogador <- falso
          respostaJogadasPossiveis <- falso
@@ -128,7 +134,7 @@ inicio
          
                   Enquanto respostaJogadasPossiveis = falso Faca
 
-                           Escreva("Jogador 1, Escolha uma jogada respectivamente posição.: ")
+                           Escreva("Jogador 2, Escolha uma jogada respectivamente posição.: ")
                            Leia(escolhaJogador)
 
                            Se (escolhaJogador < 1) OU (escolhaJogador > 9) Entao
@@ -139,46 +145,31 @@ inicio
 
                               //Sai do loop respostaEscolhaJogador
                               respostaEscolhaJogador <- verdadeiro
+                              
+                              Se (jogadasPossiveis[escolhaJogador] = "X") OU (jogadasPossiveis[escolhaJogador] = "O") Entao
+                                  //Personalizando mensagens
+                                  Se (jogadasPossiveis[escolhaJogador] = "X") Entao
+                                     Escreval("")
+                                     Escreval("Essa jogada já foi feita pelo jogador 1.")
+                                     Escreval("")
+                                  Fimse
 
-                              Se (jogadasPossiveis[escolhaJogador] = "X") Entao
-                                 Escreval("")
-                                 Escreval("Essa jogada já foi feita!")
-                                 Escreval("")
-                              Senao
-                                 //sai do loop respostaJogadasPossiveis
-                                 respostaJogadasPossiveis <- verdadeiro
-                              Fimse
+                                  Se (jogadasPossiveis[escolhaJogador] = "O") Entao
+                                     Escreval("")
+                                     Escreval("Essa jogada já foi feita pelo jogador 2.")
+                                     Escreval("")
+                                  Fimse
 
-                               Se (jogadasPossiveis[escolhaJogador] = "O") Entao
-                                  respostaJogadasPossiveis <- falso
-                                  Escreval("")
-                                  Escreval("Essa jogada já foi feita!")
-                                  Escreval("")
                                Senao
                                   //sai do loop respostaJogadasPossiveis
                                   respostaJogadasPossiveis <- verdadeiro
                                Fimse
 
-                            Fimse
-                           
 
-                           
+                           Fimse
 
-
-                           //Se (jogadasPossiveis[1] = "O") OU (jogadasPossiveis[2] = "O") OU (jogadasPossiveis[3] = "O") OU (jogadasPossiveis[4] = "O") OU (jogadasPossiveis[5] = "O") OU (jogadasPossiveis[6] = "O") OU (jogadasPossiveis[7] = "O") OU (jogadasPossiveis[8] = "O") OU (jogadasPossiveis[9] = "O") Entao
-                            //  Escreval("")
-                            //  Escreval("2Essa jogada já foi feita!")
-                            //  Escreval("")
-                           //Senao
-                             //sai do loop
-                            // respostaJogadasPossiveis <- verdadeiro
-                           //Fimse
-                  
                   
                   Fimenquanto
-                  
-
-
 
          
          Fimenquanto
@@ -188,8 +179,8 @@ inicio
          
       Fimse
       
-      
-      //Imprimindo jogo da velha
+
+      //Imprimindo jogo da velha depois de passar nas verificações acims
       Escreval("")
       Escreval("   ",jogadasPossiveis[1],"##    ",jogadasPossiveis[2],"##   ",jogadasPossiveis[3])
       Escreval("    ##     ##    ")
@@ -201,8 +192,10 @@ inicio
       Escreval("    ##     ##    ")
       Escreval("")
 
+      
 
-      //Regras de negocios Jogador 1 ->
+
+      //Regras de negocios Jogador 1:
       //JogadasPossiveis Horizontal
       Se (jogadasPossiveis[1] = "X") E (jogadasPossiveis[2] = "X") E (jogadasPossiveis[3] = "X") Entao
 
@@ -376,6 +369,7 @@ inicio
         Escreval("Acertos Jogador 1: ", acertosJogador1)
         Escreval("O vitorioso foi decidido Jogador 1!")
         
+        //Imprimindo jogo da velha
         Escreval("")
         Escreval("   ",jogadasPossiveis[1],"##    ",jogadasPossiveis[2],"##   ",jogadasPossiveis[3])
         Escreval("    ##     ##    ")
@@ -388,16 +382,16 @@ inicio
         Escreval("")
         
         Interrompa
-
+        
      Fimse
      
      
      
-     
+     //================================================================================================================================
 
 
-     //Regras de negocios Jogador 2 ->
 
+     //Regras de negocios Jogador 2:
      //JogadasPossiveis Horizontal
      Se (jogadasPossiveis[1] = "O") E (jogadasPossiveis[2] = "O") E (jogadasPossiveis[3] = "O") Entao
 
@@ -406,7 +400,8 @@ inicio
 
         Escreval("Acertos Jogador 2: ", acertosJogador2)
         Escreval("O vitorioso foi decidido Jogador 2!")
-
+        
+        //Imprimindo jogo da velha
         Escreval("")
         Escreval("   ",jogadasPossiveis[1],"##    ",jogadasPossiveis[2],"##   ",jogadasPossiveis[3])
         Escreval("    ##     ##    ")
@@ -585,26 +580,11 @@ inicio
         Interrompa
 
      Fimse
+     
 
    Fimpara
 
-   Se (jogadasPossiveis[1] <> "1") E (jogadasPossiveis[2] <> "2") E (jogadasPossiveis[3] <> "3") E (jogadasPossiveis[4] <> "4") E (jogadasPossiveis[5] <> "5") E (jogadasPossiveis[6] <> "6") E (jogadasPossiveis[7] <> "7") E (jogadasPossiveis[8] <> "8") E (jogadasPossiveis[9] <> "9") Entao
 
-      limpatela
-      Escreval("EMPATOU!")
-
-      Escreval("")
-      Escreval("   ",jogadasPossiveis[1],"##    ",jogadasPossiveis[2],"##   ",jogadasPossiveis[3])
-      Escreval("    ##     ##    ")
-      Escreval("#################")
-      Escreval("   ",jogadasPossiveis[4],"##    ",jogadasPossiveis[5],"##   ",jogadasPossiveis[6])
-      Escreval("    ##     ##    ")
-      Escreval("#################")
-      Escreval("   ",jogadasPossiveis[7],"##    ",jogadasPossiveis[8],"##   ",jogadasPossiveis[9])
-      Escreval("    ##     ##    ")
-      Escreval("")
-
-   Fimse
 
    
 

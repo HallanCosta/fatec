@@ -1,0 +1,14 @@
+1) Crie um algoritimo que cadastre e imprima o nome 
+de cinco cidades. OK
+
+=============================================================
+2) Crie um algoritmo que cadastre e imprima a soma e a média
+dos cincos números digitados. OK
+
+
+=============================================================
+3) Crie um algoritmo que cadastre e imprima o nome e a altura
+ de cinco pessoas. OK
+
+A variavel nome e altura vai precisar de 2 vetores para 
+fazer o exercicio 3
