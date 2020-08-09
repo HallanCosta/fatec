@@ -1,5 +1,5 @@
 algoritmo "JogoDaVelha"
-// Função : Jogador escolhe x ou bola quem completar 3 sequências primeiro ganha
+// Função : 2 jogadores conseguirem jogar o jogo.
 // Autor : HallanCosta
 // Data : 14/05/2020
 // Seção de Declarações 
@@ -13,7 +13,7 @@ var
 inicio
    //Seção de Comandos
 
-   //Mediadores para sair do loop de verificações..
+   //Mediadores para sair do loop de verificações.
    respostaEscolhaJogador <- falso
    respostaJogadasPossiveis <- falso
    
@@ -33,7 +33,6 @@ inicio
    jogadasPossiveis[9] <- "9"
    
    
-   //Popular o jogo da velha usando o PARA ou o REPITA
    Escreval(".:: JOGO DA VELHA ::.")
    
    Escreval("")
@@ -107,10 +106,8 @@ inicio
 
                             Fimse
 
-
                   Fimenquanto
                   
-         
          Fimenquanto
 
          jogadasPossiveis[escolhaJogador] <- "X"

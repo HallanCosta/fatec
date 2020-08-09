@@ -1,0 +1,171 @@
+1) I - II - IV
+
+2) II - III
+
+3) A - E
+
+4) 
+a) ~a
+b) aVb
+c) a^b
+d) ~a^b
+e) ~a^b
+f) ~(a^b)
+g) ~(aVb)
+h) aVb
+i) ~(d^c)
+j) ~(dVc)
+k) ~(d disjunção exclusiva c)
+l) ~(~dVc)
+m) ~dVc
+
+5)
+a)F
+b)V
+c)V
+d)F
+e)F
+f)F
+g)V
+h)V
+i)F
+j)F
+k)F
+l)V
+m)F
+
+
+6) 
+a)
+a |b |~a|~b|^ |
+__|__|__|__|__|
+v |v |f |f |f |
+v |f |f |v |f |
+f |v |v |f |f |
+f |f |v |v |v |
+
+b)
+a |b |~a|~b|V |
+__|__|__|__|__|
+v |v |f |f |f |
+v |f |f |v |v |
+f |v |v |f |v |
+f |f |v |v |v |
+
+c)
+a |b |^ |~ |
+__|__|__|__|
+v |v |v |f |
+v |f |f |v |
+f |v |f |v |
+f |f |f |v |
+
+d)
+a |~a |^ |~ |
+__|___|__|__|
+v |f  |f |v |
+f |v  |f |v |
+v |f  |f |v |
+f |v  |f |v |
+
+e)
+a |~a |V |~ |
+__|___|__|__|
+v |f  |v |f |
+f |v  |v |f |
+v |f  |v |f |
+f |v  |v |f |
+
+
+7) Alternativa (A)
+a)f ^ v = f
+b)f v v = v v v = v
+c)f v v = v
+d)f v v = v
+e)v ^ v = v
+
+8)
+a |b |~a |~b |av~b |(av~b)v~A |
+__|__|___|___|_____|__________|
+v |v |f  |f  |v    |v         |
+v |f |f  |v  |v    |v         |
+f |v |v  |f  |f    |v         |
+f |f |v  |v  |v    |v         |
+
+9)
+a |b |^  |~  |
+__|__|___|___|
+v |v |v  |f  |
+v |f |f  |v  |
+f |v |f  |v  |
+f |f |f  |v  |
+
+
+a |b |~a  |~b  |^  |
+__|__|____|____|___|
+v |v |f   |f   |f  |
+v |f |f   |v   |f  |
+f |v |v   |f   |f  |
+f |f |v   |v   |v  |
+
+Não são equivalentes
+
+10)
+
+a |b |v  |~  |
+__|__|___|___|
+v |v |v  |f  |
+v |f |v  |f  |
+f |v |v  |f  |
+f |f |f  |v  |
+
+
+a |b |~a |~b |v
+__|__|___|___|__
+v |v |f  |f  |f
+v |f |f  |v  |v
+f |v |v  |f  |v
+f |f |v  |v  |v
+
+Não são equivalentes.
+
+11)
+a) ~(p^q)
+b) A empresa não diminuiu os custos e não aumentou as receitas.
+
+12) São equivalentes.
+
+13)
+p |q |~p |~q |v |^ |<-> |
+__|__|___|___|__|__|____|
+v |v |f  |f  |f |v |f   |
+v |f |f  |v  |v |f |f   |
+f |v |v  |f  |v |f |f   |
+f |f |v  |v  |v |f |f   |
+
+14)Não são equivalentes, A é verdadeiro e B é falso
+
+15)
+
+p |q |-> |
+__|__|___|
+v |v |v  |
+v |f |f  |
+f |v |v  |
+f |f |v  |
+
+p |q |~p |~q |->
+__|__|___|___|__
+v |v |f  |f  |v
+v |f |f  |v  |v
+f |v |v  |f  |f
+f |f |v  |v  |v
+
+Não são equivalentes
+
+16) (a)
+
+17)
+a) Se é verdade que estudo passo na disciplina de Matemática Discreta.
+b) Passo na disciplina de matemática discreta se, e somente se estudo.
+c) Se não estudo não passo na disciplina de Matemática Discreta.
