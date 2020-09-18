@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{979EFBD9-B2D7-42DA-917E-FB88FD3DC20F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cadastroPessoas/gtk-gui/MainWindow.cs">
+    <Files>
+      <File FileName="cadastroPessoas/gtk-gui/MainWindow.cs" Line="109" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="cadastroPessoas" expanded="True">
+            <Node name="cadastroPessoas" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.cadastroPessoas PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

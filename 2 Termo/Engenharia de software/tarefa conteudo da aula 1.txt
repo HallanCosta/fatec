@@ -1,0 +1,27 @@
+1-Pesquisar, descrever e apresentar, (ao menos) 2 casos de problemas causados por erros em software que você conhece
+
+Milhares de Webcams se tornaram publicas por erro de Software.
+O conteúdo filmado pelos proprietários das webcams TRENDnet foi transmitido publicamente sem precisar de qualquer autentificação por senha. Como resultado varias câmeras tiveram seu conteúdo espalhados na rede. Estima-se que no máximo 50 mil dispositivos sofreram com a brecha deixada pela empresa.
+
+O Ping da Morte (1995/1996)
+O problema afetava vários sistemas operacionais mas o pior caso era, lógico, com o Windows, que travava e mostrava a famosa "tela azul". Ficou conhecido por "capturar" computadores com Windows lhe enviando um ping corrupto.
+
+
+
+2-Pesquisar, descrever e apresentar, (ao menos) 2 produtos (que não seja um PC) no qual o software faz a diferença.
+
+Em sistemas de vôos. Funções no caixa eletrônico de um banco.
+
+
+3-Pressman, página 20, apresenta a relação, abaixo apesentada, de tipos/características de software. Explane cada um (Acrescente outros se desejar.)
+
+Software Básico: coleção de programas escritos para dar apoio a outros programas.
+Software de Tempo Real: software que monitora, analisa e controla eventos do mundo real.
+Software Comercial: sistemas de operações comerciais e tomadas de decisões administrativas.            
+Software Científico ou de Engenharia: caracterizado por algoritmos de processamento de números.
+Software Embutido: usado para controlar produtos e sistemas para os mercados industriais e de consumo.
+Software de Computador Pessoal: envolve processamento de textos, planilhas eletrônicas, diversões, etc.
+Software de Inteligência Artificial: faz uso de algoritmos não numéricos para resolver problemas que não sejam favoráveis à computação ou à análise direta.
+
+Atividade extra entrega (manuscrita)-02-09-2020 (luma.delima@gmail.com – assunto:PesquisaIESI
+9-2020 (luma.delima@gmail.com – assunto:PesquisaIESI

@@ -1,0 +1,20 @@
+Consulte a documentação caso obtenha problemas: https://www.mono-project.com/download/stable/#download-lin-debian
+
+# Instalando certificados gnu.
+sudo apt install apt-transport-https dirmngr gnupg ca-certificates
+
+# Baixando Chave de verificação
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+
+# Criandoo repositório mono-develop.
+echo "deb https://download.mono-project.com/repo/debian stable-buster main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+
+# Atualizando repositório.
+sudo apt update
+
+# Instalando mono e bibliotecas
+sudo apt install mono-devel mono-complete mono-dbg referenceassemblies-pcl ca-certificates-mono mono-xsp4
+
+# Instalando interface grafíca mono-develop
+sudo apt install monodevelop 
+

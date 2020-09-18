@@ -1,0 +1,31 @@
+Tarefa
+
+Fazer todos os pagamentos de financioamento de veículo no valor de R$15000,00 descrevendo a variação entre PC e PNC
+
+PC = Passivo Circulante
+PNC = Passivo Não Circulante
+
+Pagamento parcela 0 = saldo devedor (R$15000,00) : PC (R$12000,00) + PNC (R$3000,00)
+Pagamento parcela 1 = saldo devedor (R$14000,00) : PC (R$12000,00) + PNC (R$2000,00)
+Pagamento parcela 2 = saldo devedor (R$13000,00) : PC (R$11000,00) + PNC (R$1000,00)
+Pagamento parcela 3 = saldo devedor (R$12000,00) : PC (R$10000,00) + PNC (R$0,00)
+Pagamento parcela 4 = saldo devedor (R$11000,00) : PC (R$9000,00) + PNC (R$0,00)
+Pagamento parcela 5 = saldo devedor (R$10000,00) : PC (R$8000,00) + PNC (R$0,00)
+Pagamento parcela 6 = saldo devedor (R$9000,00) : PC (R$7000,00) + PNC (R$0,00)
+Pagamento parcela 7 = saldo devedor (R$8000,00) : PC (R$6000,00) + PNC (R$0,00)
+Pagamento parcela 8 = saldo devedor (R$7000,00) : PC (R$5000,00) + PNC (R$0,00)
+Pagamento parcela 9 = saldo devedor (R$6000,00) : PC (R$4000,00) + PNC (R$0,00)
+Pagamento parcela 10 = saldo devedor (R$5000,00) : PC (R$3000,00) + PNC (R$0,00)
+Pagamento parcela 11 = saldo devedor (R$4000,00) : PC (R$2000,00) + PNC (R$0,00)
+Pagamento parcela 12 = saldo devedor (R$3000,00) : PC (R$1000,00) + PNC (R$0,00)
+
+Pagamento parcela 13 = saldo devedor (R$2000,00) : PC (R$0,00) + PNC (R$0,00)
+Pagamento parcela 14 = saldo devedor (R$1000,00) : PC (R$00,00) + PNC (R$0,00)
+Pagamento parcela 15 = saldo devedor (R$0,00) : PC (R$0,00) + PNC (R$0,00)
+
+
+OBS: Total de 100. Passivo circulando sempre vai receber 12 meses, o passivo não circulante vai receber o restante exemplo 88 meses.
+
+100 mil
+PC: 12K
+PNC: 88K

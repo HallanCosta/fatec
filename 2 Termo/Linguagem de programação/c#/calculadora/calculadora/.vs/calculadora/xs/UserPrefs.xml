@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C2CDA6A2-46AA-4EDF-8DBD-FE96C69CAE86}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="gtk-gui/MainWindow.cs">
+    <Files>
+      <File FileName="MainWindow.cs" Line="39" Column="35" />
+      <File FileName="gtk-gui/MainWindow.cs" Line="107" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="calculadora" expanded="True">
+            <Node name="calculadora" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.calculadora PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

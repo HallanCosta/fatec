@@ -1,0 +1,19 @@
+1 - Porque os riscos são considerados à medida que cada evolução é realaizada. 
+
+2 - descoberto de requisitos funcionais e não funcionais –regras de negócios –documentação de requisitos –validação e verificação. os requisitos de um determinado problema são bem compreendidos. Se as especificações estiverem corretas (o que é muito difícil em projetos de médio e grande porte), um software pode ser desenvolvido de forma muito rápida.
+
+3 - 
+
+9 - Errado
+
+10 - (B)
+
+11 - (D)
+
+12 - No modelo cascata você tem que esperar tudo ser valídado, já no espiral não e necessario pois de tiver algum problema você pode voltar atrás.
+
+13 - são miniprojetos interativos que incrementam o desenvolvimento?
+
+14 - os modelos de ciclo de software foram criados para permitir que o gerente saiba em qual fase do desenvolvimento do software a equipe está e consequentemente ele acaba gerenciando, sabendo se a fase está concluida ou se deve parar para analisar.
+
+15 - Sistema é um conjunto de eelementos que relacionam entre si. Sistema de informação ele trabalha para produção de informação, ele precisa de dados que era conhecimento usandos pelas empresas em geral.

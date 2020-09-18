@@ -1,0 +1,26 @@
+Aluno: HÁLLAN DA SILVA COSTA
+Cenário Lista de Funcionalidade
+Atividade: (adaptado de FEIG-SENAI) 
+Abaixo há a descrição de escopo da necessidade de um cliente e para a qual deverá ser desenvolvido um sistema.  
+Analise-a e proponha uma lista de funcionalidades: 
+
+Pretende-se criar um sistema de gestão de uma lavanderia. Atualmente existem 4 colaboradores, 3 máquinas de lavagem a seco, 
+sendo uma para lãs e tecidos delicados, duas seções para passar a ferro e uma caixa.
+A recepção e entrega das peças de roupas é feita pelo colaborador que fica no caixa. 
+Os outros estão dispostos nas máquinas de lavagem e nas seções de passar a ferro. 
+Usualmente as lãs e os tecidos delicados não requerem passagem a ferro. 
+Um cliente quando se dirige à lavanderia pode vir entregar roupa para ser tratada ou buscar um lote de roupas já pronta. 
+Cada cliente traz usualmente um lote de peças que varia entre 1 e 6 peças. 
+Há vários tipos de peças e de tratamentos a realizar: lavagem a seco, com ou sem passagem a ferro, lãs e tecidos especiais. 
+O registro de um pedido de tratamento de roupa deve conter a seguinte informação: N.º, N.º do Cliente e Data.  
+Além disso, deve conter o número de peças e o tipo de tratamento(s) para cada uma, a quantia a pagar e a data provável de entrega. 
+Para cada máquina, devem ser registradas as seguintes informações: N.º, tipo, capacidade e duração média do ciclo de lavagem.  
+Uma máquina só efetua a lavagem quando dispõe de um número de peças igual ou superior a 75% da sua capacidade. 
+A passagem a ferro é feita peça a peça.  O sistema deve, ainda, manter os registros dos Empregado se dos Clientes.
+Sobre cada um, são registrados o N.º e o Nome e o que mais de fizer necessário. Deverá existir uma numeração distinta para os Empregados e para os Clientes. 
+O sistema deverá permitir, também a manutenção de registros de Clientes, Empregados e Máquinas (criar, alterar, eliminar e listar).  
+Finalmente, deverá disponibilizar algumas informações estatísticas para um determinado período, 
+designadamente: • N.º de peças de cada tipo tratadas (total, por empregado e por máquina); 
+• N.º de peças pendentes; • Tempo médio de uso, por empregado e por máquina; • Faturamento total.
+
+Controle  Gerenciais – Móveis: 

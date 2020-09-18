@@ -1,0 +1,25 @@
+Cadastro Pessoa
+
+ Nome
+
+ Endereço
+
+ Cidade
+
+ CEP
+
+ Fone
+
+
+
+Botões
+
+ >> Cancelar
+
+ --> Mensagem: Cancelar
+
+ >> Salvar
+
+ --> Mensagem: Salvar + Texto Digitado
+
+entregar até o dia 14

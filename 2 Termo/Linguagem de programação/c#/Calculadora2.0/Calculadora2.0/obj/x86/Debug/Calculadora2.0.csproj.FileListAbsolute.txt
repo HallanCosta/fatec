@@ -1,0 +1,6 @@
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Calculadora2.0/Calculadora2.0/bin/Debug/Calculadora2.0.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Calculadora2.0/Calculadora2.0/bin/Debug/Calculadora2.0.pdb
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Calculadora2.0/Calculadora2.0/obj/x86/Debug/Calculadora2.0.csprojAssemblyReference.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Calculadora2.0/Calculadora2.0/obj/x86/Debug/Calculadora2.0.csproj.CoreCompileInputs.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Calculadora2.0/Calculadora2.0/obj/x86/Debug/Calculadora2.0.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Calculadora2.0/Calculadora2.0/obj/x86/Debug/Calculadora2.0.pdb

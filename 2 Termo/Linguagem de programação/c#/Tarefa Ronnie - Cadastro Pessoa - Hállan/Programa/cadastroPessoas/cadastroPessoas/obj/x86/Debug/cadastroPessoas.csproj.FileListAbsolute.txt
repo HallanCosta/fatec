@@ -1,0 +1,6 @@
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/cadastroPessoas/cadastroPessoas/bin/Debug/cadastroPessoas.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/cadastroPessoas/cadastroPessoas/bin/Debug/cadastroPessoas.pdb
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/cadastroPessoas/cadastroPessoas/obj/x86/Debug/cadastroPessoas.csprojAssemblyReference.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/cadastroPessoas/cadastroPessoas/obj/x86/Debug/cadastroPessoas.csproj.CoreCompileInputs.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/cadastroPessoas/cadastroPessoas/obj/x86/Debug/cadastroPessoas.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/cadastroPessoas/cadastroPessoas/obj/x86/Debug/cadastroPessoas.pdb

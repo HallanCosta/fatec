@@ -1,0 +1,6 @@
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Vetores/Vetores/bin/Debug/Vetores.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Vetores/Vetores/bin/Debug/Vetores.pdb
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Vetores/Vetores/obj/x86/Debug/Vetores.csprojAssemblyReference.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Vetores/Vetores/obj/x86/Debug/Vetores.csproj.CoreCompileInputs.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Vetores/Vetores/obj/x86/Debug/Vetores.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Vetores/Vetores/obj/x86/Debug/Vetores.pdb

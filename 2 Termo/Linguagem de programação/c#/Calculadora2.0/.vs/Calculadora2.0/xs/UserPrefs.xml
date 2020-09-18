@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{F76629EB-B3D6-4FAD-A1BF-1BD523AD9074}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculadora2.0/MainWindow.cs">
+    <Files>
+      <File FileName="Calculadora2.0/MainWindow.cs" Line="43" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Calculadora2.0" expanded="True">
+            <Node name="Calculadora2.0" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Calculadora2.0 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

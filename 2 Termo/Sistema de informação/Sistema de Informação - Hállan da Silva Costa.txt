@@ -1,0 +1,3 @@
+nome: Hállan da Silva Costa
+
+Não trabalhei na área, no entanto, já utilizo com frequência as tecnológias Microsoft Teams, e para um melhor desempenho da minha maquina fui obrigado a migrar para um sistema binário que utilza UNIX como core (Linux).

@@ -1,0 +1,6 @@
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Relogio/Relogio/bin/Debug/Relogio.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Relogio/Relogio/bin/Debug/Relogio.pdb
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Relogio/Relogio/obj/x86/Debug/Relogio.csprojAssemblyReference.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Relogio/Relogio/obj/x86/Debug/Relogio.csproj.CoreCompileInputs.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Relogio/Relogio/obj/x86/Debug/Relogio.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/Relogio/Relogio/obj/x86/Debug/Relogio.pdb

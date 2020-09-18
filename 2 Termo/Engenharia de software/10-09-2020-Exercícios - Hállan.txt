@@ -1,0 +1,85 @@
+1 - (A)
+
+
+
+2 - O cliente não percebe que o levantamento de requisitos é algo 
+fundamental para que o software possa entrar em produção, tendo assim 
+menos riscos de ouver falhas ou bugs. Um exemplo: os desenvolvedores 
+desenvolvem um sistema cadastro de funcionarios, mas não implementam ou 
+controlam a hora de entrada e saída, então o software acaba ficando falho.
+
+
+
+3 -
+- Entrevista: o analista se reúne com o cliente e coleta os requisitos 
+do sistema por meio de perguntas e observações do cenário apresentado 
+pelo cliente.
+
+- Questionário:  o analista desenvolve um questionário e envia para o 
+cliente responder. Através das respostas fornecidas, são elaborados os 
+requisitos.
+
+- JAD(Joint Application Design): técnica que tem como ponto principal a 
+cooperação de toda a equipe envolvida com a solução a ser criada. 
+São feitas reuniões com os clientes na qual são definidos os requisitos 
+tendo o ponto de vista de todos os envolvidos, desde o usuário final ou 
+seu representante, quanto analistas, arquitetos, diretores etc.
+
+- Prototipação: a prototipação é utilizada como uma técnica de 
+validação de requisitos, porém ela combina perfeitamente com a técnica 
+de levantamento de requisitos.
+
+4- (C)
+
+
+
+5 - (A) NÃO TENHO CERTEZA.
+
+
+
+6 -
+Obtenção de requisitos: Busca entender quais são as necessidades do 
+usuário que devem ser atendidas pelo software que será desenvolvido.
+
+Análise de requisitos: O engenheiro de requisitos e o analista de 
+negócio, juntamente com engenheiro de sistema ou desenvolvedor de 
+software, identificam as necessidades ou requisitos de um cliente.
+
+Validação de requisitos: trata, tal como o seu nome indica, da validação 
+quanto à consistência, precisão, contextualização de requisitos 
+levantados  no processo de identificação e descoberta e de análise e 
+negociação de requisitos.
+
+Gerenciamento de requisitos: consiste em uma abordagem sistemática para
+Extrair, organizar e documentar os requisitos do sistema. Estabelecer e 
+manter um contrato entre o cliente e a equipe do projeto sobre os 
+requisitos de alterações do sistema.
+
+
+
+7 - A engenharia de requisitos é um processo que engloba todas as 
+atividades que contribuem para a produção de um documento de requisitos 
+e sua manutenção ao longo do tempo.
+- Obtenção de requisitos
+- Análise de requisitos
+- Validação de requisitos
+- Gerenciamento de requisitos ◦
+
+O processo de engenharia de requisitos é composto por oito atividades de alto nível:
+
+- Revisão do processo de requisitos;
+- Revisão das demandas dos usuários;
+- Esclarecimento das demandas dos usuários;
+- Distribuição das tarefas de requisitos;
+- Documentação dos requisitos;
+- Revisão dos requisitos;
+- Revisão dos requisitos pelos usuários;
+- Colocação dos requisitos na linha de base.
+
+
+
+8) (A)
+
+
+
+9) (Certo)

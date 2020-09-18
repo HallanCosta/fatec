@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{5A1A4440-BCE7-4E55-A13A-497BE77D56F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Relogio/MainWindow.cs">
+    <Files>
+      <File FileName="Relogio/MainWindow.cs" Line="11" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Relogio" expanded="True">
+            <Node name="Relogio" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Relogio PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

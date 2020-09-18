@@ -1,0 +1,6 @@
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/HelloworldForm/HelloworldForm/bin/Debug/HelloworldForm.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/HelloworldForm/HelloworldForm/bin/Debug/HelloworldForm.pdb
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/HelloworldForm/HelloworldForm/obj/x86/Debug/HelloworldForm.csprojAssemblyReference.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/HelloworldForm/HelloworldForm/obj/x86/Debug/HelloworldForm.csproj.CoreCompileInputs.cache
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/HelloworldForm/HelloworldForm/obj/x86/Debug/HelloworldForm.exe
+/home/HallanCosta/Documentos/Fatec/2 Termo/Linguagem de programação/c#/HelloworldForm/HelloworldForm/obj/x86/Debug/HelloworldForm.pdb

@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculadoraMono", "calculadoraMono.csproj", "{81925264-68A7-439C-A3B1-91C645EC93B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81925264-68A7-439C-A3B1-91C645EC93B2}.Debug|x86.ActiveCfg = Debug|x86
+		{81925264-68A7-439C-A3B1-91C645EC93B2}.Debug|x86.Build.0 = Debug|x86
+		{81925264-68A7-439C-A3B1-91C645EC93B2}.Release|x86.ActiveCfg = Release|x86
+		{81925264-68A7-439C-A3B1-91C645EC93B2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

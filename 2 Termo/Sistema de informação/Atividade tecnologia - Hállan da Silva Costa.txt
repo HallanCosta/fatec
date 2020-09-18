@@ -1,0 +1,10 @@
+Nome: Hállan da Silva Costa
+
+Eu não trabalho, mas algumas tecnologias que utilizo são:
+
+Microsoft Teams: O Teams é uma plataforma de comunicação via chamada, onde escolas e faculdades utilizam para dar aulas. Umas das desvantagens da aula remota onde se utiliza o teams é que nem todos tem um computador com desempenho mediano e nem todos temos uma internet instável. Algumas das vantagens eu não preciso gastar com gasolina.
+
+Linux: Utilizo para uma melhor performance da minha máquina. Antes de eu utilizar o Linux eu era um úsuario do Windows e isso me prejudicava em relação desempenho, deixando minha produtividade no computador cada dia pior. Os grandes benefícios obtidos no Linux foi a praticidade, agilidade, performance.
+
+Um eventual problema que encontro no linux é em aulas, pois os professores pedem para usar o word para trabalhos, mas  word só funciona em Windows.
+Um eventual problema que encontro no teams é não a otmização para o linux além de consumir muita memoria ram e processamento da máquina.
