@@ -1,4 +1,4 @@
-Produto: https://produtos.totvs.com/ficha-tecnica/tudo-sobre-o-totvs-carol-plataforma/
+Produto TOTVS Carol: https://produtos.totvs.com/ficha-tecnica/tudo-sobre-o-totvs-carol-plataforma/
 
 1 - Proposta de valor
 Na Era da Informação, os dados vêm das mais diversas fontes, como planilhas, sensores de IoT, softwares de gestão, sistemas especialistas, redes sociais etc. Misturados, desordenados, falhos, redundantes, isolados, provenientes de bancos de dados que não conversam entre si, eles são uma riqueza inestimável e inexplorada. Por isso, as empresas buscam ferramentas que ajudem a explorar esse tesouro, transformando dados em informação, informação em conhecimento, e conhecimento em valor.
